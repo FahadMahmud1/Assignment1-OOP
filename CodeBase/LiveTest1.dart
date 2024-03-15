@@ -15,8 +15,8 @@ void main() {
 }
 
 void displayFruitDetails(List<Map<String, dynamic>> fruits) {
-  for (var fruit in fruits) {
-    print("Name: ${fruit['name']}, Color: ${fruit['color']}, Price: \$${fruit['price']}");
+  for (var item in fruits) {
+    print("Name: ${item['name']}, Color: ${item['color']}, Price: \$${item['price']}");
   }
 }
 
